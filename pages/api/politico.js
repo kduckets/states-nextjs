@@ -14,10 +14,8 @@ export default async (req, res) => {
     await page.setRequestInterception(true)
     page.on("request", (request) => {
       if (request.resourceType() === "document") {
-        console.log('got here')
         request.continue()
       } else {
-        
         request.abort()
       }
     })

@@ -1,3 +1,4 @@
+
 .container {
   padding: 0 2rem;
 }
@@ -11,15 +12,6 @@
   justify-content: center;
   align-items: center;
 }
-
-.path {
-  pointer-events: all;
-}
-.path:hover {
-  opacity: 0.50;
-  cursor: pointer;
-}
-
 
 .footer {
   display: flex;
