@@ -43,7 +43,7 @@ export default function Home() {
         The state Supreme Court has recognized a right to abortion 
         under the state Constitution. State law also protects abortion access.</small> 
         </p>
-        <p>Tap a state to see if it sucks</p>
+        <p><small>Tap a state to see if it sucks</small></p>
         <USAMap onClick={mapHandler} height={260} width={'100%'}/>
        
       </main>
