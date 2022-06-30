@@ -44,7 +44,7 @@ export default function Home() {
         under the state Constitution. State law also protects abortion access.</small> 
         </p>
         <p>Tap a state to see if it sucks</p>
-        <USAMap onClick={mapHandler} height={300} width={'100%'}/>
+        <USAMap onClick={mapHandler} height={260} width={'100%'}/>
        
       </main>
 
