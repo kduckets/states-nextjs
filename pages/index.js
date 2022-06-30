@@ -54,7 +54,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Data sourced from{' '}
           <span className={styles.logo}>
             <Image src="/POLITICOLOGO.svg" alt="Politico Logo" width={72} height={16} />
           </span>
