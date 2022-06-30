@@ -10,18 +10,18 @@ export default function Home() {
   const [stateSucks, setStateSucks] = React.useState({})
 
   const mapHandler = (e) => {
-    e.preventDefault()
-    fetch('/api/politico', {
-      method: 'post',
-      headers: {
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify({ politico: stateSucks }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data)
-      })
+    // e.preventDefault()
+    // fetch('/api/politico', {
+    //   method: 'get',
+    //   headers: {
+    //     'content-type': 'application/json',
+    //   },
+    // })
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     console.log(data)
+    //   })
+    alert('workin on it <3 kev')
   }
 
   return (
@@ -43,8 +43,8 @@ export default function Home() {
         The state Supreme Court has recognized a right to abortion 
         under the state Constitution. State law also protects abortion access.</small> 
         </p>
-        
-        <USAMap onClick={mapHandler} width={'100%'}/>
+        <p>Tap a state to see if it sucks</p>
+        <USAMap onClick={mapHandler} height={300} width={'100%'}/>
        
       </main>
 
