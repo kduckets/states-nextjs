@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
     "next": "12.2.0",
+    "puppeteer": "^15.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-usa-map": "^1.5.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",
